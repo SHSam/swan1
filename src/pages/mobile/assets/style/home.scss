@@ -1,0 +1,84 @@
+/***
+	* --------------手机样式---------------
+	*/
+	.mobile {
+		.home-title {
+			margin-top: 97px;
+			@extend %largeMobileTxt;
+			div {
+				margin-top: 12px;
+			}
+		}
+		.home-video {
+			margin-top: 106px;
+		}
+		.we-can-do {
+			margin-top: 146px;
+		}
+		.sign-box {
+			display: block;
+			padding: 0 23px;
+			margin-top: 126px;
+			li {
+				width: auto;
+				height: 108px;
+				padding: 0 0 0 155px;
+				margin-bottom: 126px;
+				text-align: left;
+				background-position: left top !important;
+				.name {
+					padding: 9px 0 8px 0;
+					@include fontSL(36px, 50px);
+				}
+				.desc {
+					margin: 0;
+					@include fontSL(26px, 40px);
+				}
+			}
+		}
+		.sign-text {
+			margin: 283px 0 259px 0;
+			.default-text {
+				margin-top: 283px;
+				font-weight: bold;
+				text-decoration: underline;
+				@include fontSL(80px, 112px);
+			}
+			.stroke-text {
+				display: block;
+				color: #000;
+				margin: 128px 0 0 0;
+				font-weight: bold;
+				text-shadow: initial;
+				text-decoration: underline;
+				@include fontSL(80px, 112px);
+				transition: all .4s;
+			}
+		}
+		.works-title {
+			margin-bottom: 90px;
+		}
+		.aboutus-ma-t {
+			margin-top: 98px;
+		}
+		.qa-title {
+			margin: 228px 0 122px 0;
+		}
+	}
+	.logo-wall-box {
+        margin-top: 228px;
+        margin-bottom: 141px;
+        .wall-title {
+            margin-bottom: 114px;
+        }
+        .logo-wall {
+			justify-content: start;
+            img {
+                height:	70px;
+                margin: 0 35px 90px 0;
+				&:nth-child(3n) {
+					margin-right: 0;
+				}
+            }
+        }
+    }

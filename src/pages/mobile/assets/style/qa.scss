@@ -1,0 +1,10 @@
+.qa-box {
+    margin-bottom: 75px;
+    .qa-item-title {
+        @include fontSL(38px, 53px);
+    }
+    .qa-answer {
+        @include fontSL(30px, 51px);
+        max-height: 800px;
+    }
+}

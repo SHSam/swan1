@@ -1,0 +1,9 @@
+@import '~@/assets/style/reset.css';
+@import '~@/assets/style/common.scss';
+.swan-contain-box {
+    padding: 0 40px;
+}
+
+.large-title {
+    @extend %largeMobileTxt;
+}

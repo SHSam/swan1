@@ -1,0 +1,12 @@
+.mobile {
+    .tag-item {
+        &:not(.large-tag) {
+            width: 156px;
+            height: 76px;
+            border-radius: 38px;
+            line-height: 74px;
+            font-size: 26px;
+            margin: 0 21px 34px 0;
+        }
+    }
+}
